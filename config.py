@@ -15,9 +15,9 @@ CHANNELS = {
     "absences": 1450980209808638073,   #channel ou l'embed absence sera
     
    
-    "reglement_gen": 0,       # channel pour le règlement général ca s'envoie QUE si le channel est vide
-    "reglement_discord": 0,   # channel pour le règlement discord ca s'envoie QUE si le channel est vide
-    "liens_utiles": 0         # channel pour les liens utiles ca s'envoie QUE si le channel est vide
+    "reglement_gen": 1451016091416400072,       # channel pour le règlement général ca s'envoie QUE si le channel est vide
+    "reglement_discord": 1451016037591158887,   # channel pour le règlement discord ca s'envoie QUE si le channel est vide
+    "liens_utiles": 1451016113419980841         # channel pour les liens utiles ca s'envoie QUE si le channel est vide
 }
 
 ROLES = {
