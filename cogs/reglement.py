@@ -45,7 +45,7 @@ class ReglementCog(commands.Cog):
         await self.check_and_send_reglement(
             "reglement_gen",
             "Règlement Général",
-            "Voici le règlement du serveur RolePlay Remember Roleplay !\n\nMerci de le lire attentivement avant de commencer votre aventure.",
+            "Merci de lire le règlement ci-dessous.",
             "https://docs.google.com/document/d/13tt57aQiBR5LJWAjs2MVXosruvxiZz68RI15v50cA1c/edit?usp=sharing",
             "Lire le Règlement"
         )
@@ -54,7 +54,7 @@ class ReglementCog(commands.Cog):
         await self.check_and_send_reglement(
             "reglement_discord",
             "Règlement Discord",
-            "Voici le règlement Discord.\n\nLe respect de ces règles est obligatoire pour la bonne entente sur le serveur.",
+            "Merci de lire le règlement ci-dessous.",
             "https://docs.google.com/document/d/1WbnBq10SzKyZAD7euV154EF-8FVKuEyQfTsA112KIi4/edit?usp=sharing",
             "Lire le Règlement Discord"
         )
