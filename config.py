@@ -12,7 +12,12 @@ CHANNELS = {
     "tickets_category": 1450670358712680478, #categorie ou les tickets vont se crées
     "tickets_logs": 1450667943896809603, #channel ou les logs vont se mettre
     "rdv_planning": 1450960008601800910, #channel ou l'embed planning sera
-    "absences": 1450980209808638073   #channel ou l'embed absence sera
+    "absences": 1450980209808638073,   #channel ou l'embed absence sera
+    
+   
+    "reglement_gen": 0,       # channel pour le règlement général ca s'envoie QUE si le channel est vide
+    "reglement_discord": 0,   # channel pour le règlement discord ca s'envoie QUE si le channel est vide
+    "liens_utiles": 0         # channel pour les liens utiles ca s'envoie QUE si le channel est vide
 }
 
 ROLES = {
