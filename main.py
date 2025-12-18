@@ -90,12 +90,22 @@ class RememberBot(commands.Bot):
                         );
                     """)
 
+                    
+                    await conn.execute("""
+                        CREATE TABLE IF NOT EXISTS useful_links (
+                            label TEXT PRIMARY KEY,
+                            url TEXT NOT NULL
+                        );
+                    """)
+
             except Exception as e:
                 print(f"[DB] Erreur : {e}")
 
         extensions = [
             "cogs.tickets",
-            "cogs.absences"
+            "cogs.absences",
+            "cogs.reglement",  
+            "cogs.liens"       
         ]
 
         for ext in extensions:
